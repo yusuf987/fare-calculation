@@ -1,5 +1,8 @@
 # Fare Calculation System
 
+This TypeScript-based fare calculation system implements a metro fare engine for the fictional MoysterCard payment system. The solution calculates commuter fares based on zone travel patterns, peak/off-peak timing, and intelligent capping rules.
+
+The system processes journey data containing timestamps and zone information, applying business rules for peak hours (weekdays 7:00-10:30 & 17:00-20:00, weekends 9:00-11:00 & 18:00-22:00) with different fare structures for zone combinations 1-1, 1-2, and 2-2.
 
 ## How to Run
 Install Dependencies
